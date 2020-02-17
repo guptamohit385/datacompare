@@ -1,6 +1,6 @@
 {
   "name": "datacompare",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,10 @@
   "keywords": ["data compare", "logical string compare", "sentence meaning", "meaning compare"],
   "author": "mohit gupta",
   "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/guptamohit385/datacompare.git"
+  },
   "dependencies": {
     "@tensorflow/tfjs": "^1.5.2",
     "contractions": "0.0.7",

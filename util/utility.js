@@ -9,3 +9,15 @@ module.exports.shuffle = (array) => {
     }
     return array;
 }
+
+module.exports.generateDataFromBow = (sentence, words) => {
+    let bag = new Array(words.length).fill(0.0);
+    sentence.forEach(s => {
+        words.forEach((w, i)=>{
+            if (w == s) {
+                bag[i] = 1.0
+            }
+        })
+    })
+    return bag;
+}
