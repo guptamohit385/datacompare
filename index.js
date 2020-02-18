@@ -1,1 +1,1 @@
-exports.dataCompare = require("./lib/index")
+exports = require("./lib/index")
