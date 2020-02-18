@@ -13,3 +13,8 @@ module.exports.compileConfig = {
     optimizer: 'sgd', 
     metrics: ['accuracy']
 }
+
+module.exports.shorthands = {
+    'asap': 'as soon as possible',
+    'btl': 'bottle'
+}

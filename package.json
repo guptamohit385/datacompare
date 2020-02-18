@@ -1,6 +1,6 @@
 {
   "name": "datacompare",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "multi sentence meaning compare with NLP and ML",
   "main": "index.js",
   "scripts": {
@@ -11,12 +11,11 @@
   "author": "mohit gupta",
   "license": "ISC",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/guptamohit385/datacompare.git"
+    "type": "git",
+    "url": "https://github.com/guptamohit385/datacompare.git"
   },
   "dependencies": {
     "@tensorflow/tfjs": "^1.5.2",
-    "contractions": "0.0.7",
     "natural": "^0.6.3",
     "pos": "^0.4.2"
   }
