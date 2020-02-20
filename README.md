@@ -9,18 +9,19 @@ with help of NLP and Tensorflow JS this package compare two array of sentences a
 
 1) listOfSen - is the array of list of sentence in set A (minimum length 2)
 2) sampleTest - is the array of list of sentence in set B (minimum length 1)
-3) accuracy - range from 0.10 - 0.50 (default : 0.25)
-4) customShorthands - adding shorthand expentions to your understanding
+3) accuracy - range from 0.10 - 0.50 (default : 0.25) or null
+4) customShorthands - adding shorthand expentions to your understanding 
+                      (example: don't => do not) or null
 
 ## Sample Inputs
 
 ```
 let listOfSen = [
-    "the world is always in danger",
+    "the world is always in danger don't asap",
     "some string 2"
 ]
 let sampleTest = ["1 some string", "there is dannger in the world always"];
-let accuracy = 0.25;
+let accuracy = 0.25
 let customShorthands = {www: "world wide web"}
 ```
 

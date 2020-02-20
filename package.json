@@ -10,10 +10,6 @@
   "keywords": ["data compare", "logical string compare", "sentence meaning", "meaning compare"],
   "author": "mohit gupta",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/guptamohit385/datacompare.git"
-  },
   "dependencies": {
     "@tensorflow/tfjs": "^1.5.2",
     "natural": "^0.6.3",
