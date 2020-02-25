@@ -7,6 +7,7 @@ with help of NLP and Tensorflow JS this package compare two array of sentences a
 
 ## Example
 
+```
 |--------------------------------------------------------------------------------------------------|
 | VariableName      |  Details                                         |  Validation               |
 |--------------------------------------------------------------------------------------------------|
@@ -15,6 +16,8 @@ with help of NLP and Tensorflow JS this package compare two array of sentences a
 | accuracy          | range from 0.10 - 0.50 (default : 0.25)          | (optional can pass null)  |
 | customShorthands  | shorthand expentions (example: don't => do not)  | (optional can pass null)  |
 |--------------------------------------------------------------------------------------------------|
+
+```
 
 ## require package
 
