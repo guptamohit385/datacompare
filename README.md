@@ -6,14 +6,15 @@ data compare, logical string compare, sentence meaning, meaning compare
 with help of NLP and Tensorflow JS this package compare two array of sentences and sort them on the bases of meaning. 
 
 ## Example
-#|--------------------------------------------------------------------------------------------------|
-#| VariableName      |  Details                                         |  Validation               |
-#|--------------------------------------------------------------------------------------------------|
-#| sentenceListA     | is the array of list of sentence in set A        | (required)                |
-#| sentenceListB     | is the array of list of sentence in set B        | (required)                |
-#| accuracy          | range from 0.10 - 0.50 (default : 0.25)          | (optional can pass null)  |
-#| customShorthands  | shorthand expentions (example: don't => do not)  | (optional can pass null)  |
-#|--------------------------------------------------------------------------------------------------|
+
+|--------------------------------------------------------------------------------------------------|
+| VariableName      |  Details                                         |  Validation               |
+|--------------------------------------------------------------------------------------------------|
+| sentenceListA     | is the array of list of sentence in set A        | (required)                |
+| sentenceListB     | is the array of list of sentence in set B        | (required)                |
+| accuracy          | range from 0.10 - 0.50 (default : 0.25)          | (optional can pass null)  |
+| customShorthands  | shorthand expentions (example: don't => do not)  | (optional can pass null)  |
+|--------------------------------------------------------------------------------------------------|
 
 ## require package
 
@@ -66,7 +67,7 @@ main.dataCompare(sentenceListA, sentenceListB, accuracy, customShorthands, callB
     0.9503713250160217, // (round it or multiply with 100 to find in percent)
     'the world is always in danger',
     'there is dannger in the world always' ] ]
-    
+
 ```
 
 ## Output Explained
