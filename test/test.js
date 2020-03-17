@@ -33,9 +33,7 @@ let sampleTest1 = [
 //     "4 samsung monitors",
 // ];
 
-let accuracy = 0.20;
-
-main.dataCompare(listOfSen1, sampleTest1, accuracy, function(err, succss){
+main.dataCompare(listOfSen1, sampleTest1, accuracy, customShorthands, function(err, succss){
     //console.log(err, succss)
     succss.forEach(i => {
         console.log(i)

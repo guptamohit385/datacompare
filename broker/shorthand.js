@@ -1,7 +1,6 @@
 'use strict';
 
-
-var wordLookup = require('../config/word-lookup');
+var wordLookup = require('../util/word-lookup');
 
 class Contractions {
 	constructor(contractions) {
