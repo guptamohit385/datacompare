@@ -1,6 +1,6 @@
 {
   "name": "datacompare",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "multi sentence meaning compare with NLP and ML",
   "main": "index.js",
   "scripts": {
