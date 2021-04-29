@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "keywords": ["data compare", "logical string compare", "sentence meaning", "meaning compare"],
-  "author": "mohit gupta",
+  "author": "kvertex",
   "license": "ISC",
   "dependencies": {
     "@tensorflow/tfjs": "^1.5.2",
