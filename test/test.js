@@ -4,13 +4,11 @@ let accuracy = 0.2;
 let customShorthands = null
 let oldConversation = [
     "Service Requests",
-    "Bulk Pickup",
-    "Customer ID",
-    "000258774943002",
+    "Bulk Pickup"
 ]
 
 let CorrectLatestIntent = [
-    "I want bulk pickup"
+    "I want pickup"
 ];
 
 let IncorrectLatestIntent = [
