@@ -1,4 +1,4 @@
-# DataCompare Package Details (Powered by kvertex.com)
+# DataCompare Package Details
 
 ## Table of Contents
 
