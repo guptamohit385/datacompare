@@ -7,7 +7,12 @@
     "test": "node test/test.js",
     "start": "node index.js"
   },
-  "keywords": ["data compare", "logical string compare", "sentence meaning", "meaning compare"],
+  "keywords": [
+    "data compare",
+    "logical string compare",
+    "sentence meaning",
+    "meaning compare"
+  ],
   "author": "kvertex",
   "license": "ISC",
   "dependencies": {
