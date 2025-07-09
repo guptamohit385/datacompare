@@ -20,7 +20,7 @@
     7) [Summarizer_Output_Explained](#Summarizer_Output_Explained)
 
 
-# DataCompare_Data_Compare
+# DataCompare Data Compare
 data compare, logical string compare, sentence meaning, meaning compare
 
 ## DataCompare_Understanding
